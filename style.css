@@ -129,6 +129,7 @@ body {
 .header {
   background-color: #ffffff;
   border-bottom: 1px solid var(--border);
+  transition: background-color 0.25s ease, border-color 0.25s ease;
 }
 
 .header__inner {
@@ -176,6 +177,7 @@ body {
   text-decoration: none;
   color: var(--text-muted);
   position: relative;
+  transition: color 0.25s ease;
 }
 
 /* Trait noir sous le lien au hover */
@@ -272,6 +274,7 @@ body {
   width: 20px;
   height: 2px;
   background-color: var(--text);
+  transition: background-color 0.25s ease;
 }
 
 /* --------------------------------------------- */
