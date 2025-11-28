@@ -23,10 +23,10 @@
             <span>+352 26 43 61</span>
           </span>
 
-          <span class="topbar__item">
+          <a href="mailto:info@ask-avocats.lu" class="topbar__item topbar__email">
             <img src="./enveloppe.png" alt="" class="topbar__icon-img">
             <span>info@ask-avocats.lu</span>
-          </span>
+          </a>
 
           <span class="topbar__item">
             <img src="./marqueur.png" alt="" class="topbar__icon-img">
@@ -72,27 +72,18 @@
 
   <main id="top">
     <!-- HERO -->
-    <section id="hero" class="hero hero--fullbg">
-      <div class="hero__overlay"></div>
+    <section id="hero" class="hero hero--intro">
+      <div class="container hero__content-centered hero__content--logo-only">
+        <img src="./logo-removebg-preview.png" alt="ASK Avocats" class="hero__logo-intro" />
 
-      <div class="container hero__content-centered">
-        <h1 class="hero__title-big">Cabinet d’avocats à Luxembourg</h1>
-        <p class="hero__subtitle-big">
-          Défense, rigueur et accompagnement juridique sur-mesure au Luxembourg.
+        <!-- Baseline sous le logo -->
+        <p class="hero__baseline">
+          <span id="hero-baseline-text">CABINET D’AVOCATS À LUXEMBOURG</span>
         </p>
-
-        <a href="#contact" class="btn-hero-modern">
-          <span class="btn-hero-modern__label">Nous contacter</span>
-          <span class="btn-hero-modern__icon" aria-hidden="true">
-            <svg class="btn-hero-modern__icon-svg" viewBox="0 0 16 16">
-              <path d="M5 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"
-                stroke-linejoin="round" />
-            </svg>
-          </span>
-        </a>
-
       </div>
     </section>
+
+
 
     <!-- ÉQUIPE -->
     <section id="equipe" class="section">
@@ -108,7 +99,7 @@
           <article class="lawyer-card" data-lawyer="aminatou">
             <div class="lawyer-image-wrapper">
               <!-- TODO: remplacer par la vraie photo -->
-              <img src="./photos/aminatou.jpg" alt="Maître Aminatou KONÉ" class="lawyer-image" />
+              <img src="./yo.jpg" alt="Maître Aminatou KONÉ" class="lawyer-image" />
               <div class="lawyer-overlay">
                 <span>Voir le profil</span>
               </div>
@@ -121,7 +112,7 @@
           <article class="lawyer-card" data-lawyer="shana">
             <div class="lawyer-image-wrapper">
               <!-- TODO: remplacer par la vraie photo -->
-              <img src="./photos/shana.jpg" alt="Maître Shana SI ABDALLAH" class="lawyer-image" />
+              <img src="./yo.jpg" alt="Maître Shana SI ABDALLAH" class="lawyer-image" />
               <div class="lawyer-overlay">
                 <span>Voir le profil</span>
               </div>
@@ -148,7 +139,6 @@
               <p id="modal-email" class="lawyer-modal__email">E-mail : …</p>
               <p id="modal-langues" class="lawyer-modal__langues">Langues : …</p>
               <div class="lawyer-modal__links">
-                <!-- TODO: remplacer href par le vrai profil LinkedIn -->
                 <a id="modal-linkedin" href="#" target="_blank" rel="noopener noreferrer">Profil LinkedIn</a>
               </div>
             </div>
@@ -268,7 +258,6 @@
           </div>
 
           <div class="contact__map">
-            <!-- Intégration Google Maps à faire côté prod -->
             <div class="map-placeholder">Google Maps (à intégrer)</div>
           </div>
         </div>
@@ -329,202 +318,14 @@
         </p>
       </div>
     </section>
-
-    <!-- MENTIONS LÉGALES -->
-    <section id="mentions-legales" class="section section--legal">
-      <div class="container">
-        <h2 class="section__title">Mentions légales</h2>
-        <div class="legal-content">
-          <h3>FR – Protection des données personnelles</h3>
-          <p>
-            Les données à caractère personnel communiquées au moyen de ce formulaire sont traitées par le cabinet aux
-            seules fins de répondre à votre demande et d’en assurer la prise en charge. Ces informations sont conservées
-            pour une durée strictement proportionnée à l’accomplissement de la finalité poursuivie et, le cas échéant,
-            au respect des obligations légales ou réglementaires applicables à notre profession.
-          </p>
-          <p>
-            Le traitement de vos données est réservé aux avocats du cabinet ainsi qu’aux membres du personnel
-            administratif dûment habilités, intervenant dans le cadre de l’examen et du suivi de votre dossier. Vous
-            pouvez, sur demande, obtenir communication des catégories ou de l’identité des destinataires ayant accès aux
-            informations collectées.
-          </p>
-          <p>
-            En application du Règlement (UE) 2016/679 du 27 avril 2016 (RGPD) et des textes nationaux relatifs à la
-            protection des données, vous disposez notamment des droits suivants :
-          </p>
-          <ul>
-            <li>droit d’accès aux données vous concernant,</li>
-            <li>droit de rectification ou de mise à jour,</li>
-            <li>droit à l’effacement, dans les limites prévues par la loi,</li>
-            <li>droit de retrait du consentement, à tout moment,</li>
-            <li>
-              droit d’opposition, pour des motifs légitimes, sauf en cas de traitement fondé sur une obligation légale
-              ou présentant un caractère impératif au regard de la finalité poursuivie,
-            </li>
-            <li>
-              droit à la limitation ou à la portabilité de vos données, lorsque les conditions légales sont réunies.
-            </li>
-          </ul>
-          <p>
-            Pour l’exercice de vos droits ou pour toute demande relative au traitement de vos informations personnelles,
-            vous pouvez contacter le responsable du traitement au sein du cabinet : Maître Aminatou KONÉ
-            (<a href="mailto:info@ask-avocats.lu">info@ask-avocats.lu</a>,
-            6-12 rue du Fort Wallis, L-2714 Luxembourg).
-          </p>
-          <p>
-            Vous disposez également de la faculté de saisir l’autorité luxembourgeoise de contrôle en matière de
-            protection des données pour toute réclamation, si vous estimez que le traitement mis en œuvre porterait
-            atteinte à vos droits. En poursuivant votre démarche et en validant ce formulaire, vous reconnaissez avoir
-            été informé du traitement de vos données personnelles et y consentez expressément, dans le cadre strict et
-            nécessaire à l’examen de votre demande.
-          </p>
-
-          <h3>EN – Personal Data Protection</h3>
-          <p>
-            The personal data you provide via this form is processed by our law firm exclusively for the purpose of
-            reviewing, managing, and responding to your enquiry, including any subsequent actions necessary for its
-            handling. Your data will be retained only for the period strictly required to fulfil the purpose for which
-            it was collected and, where applicable, to comply with legal, regulatory, or professional obligations
-            governing the legal profession.
-          </p>
-          <p>
-            Access to your data is limited to the lawyers of the firm and authorised administrative staff directly
-            involved in the assessment and processing of your request. You may contact the firm at any time to obtain
-            further information regarding the categories or identity of recipients who may have access to the
-            information submitted.
-          </p>
-          <p>
-            In accordance with Regulation (EU) 2016/679 of 27 April 2016 (GDPR) and the applicable Luxembourg data
-            protection framework, you are entitled in particular to the following rights:
-          </p>
-          <ul>
-            <li>the right of access to your personal data,</li>
-            <li>the right to request rectification or updating of inaccurate or incomplete data,</li>
-            <li>the right to erasure (“right to be forgotten”), subject to legal limitations,</li>
-            <li>the right to withdraw your consent at any time,</li>
-            <li>
-              the right to object to processing, on legitimate grounds, except where the processing is based on a legal
-              obligation or overriding legitimate interests essential to the objectives pursued,
-            </li>
-            <li>
-              the right to request restriction of processing and the right to data portability, when the applicable
-              legal conditions are met.
-            </li>
-          </ul>
-          <p>
-            To exercise any of these rights or to obtain a copy of your personal data, you may contact the Data
-            Protection Officer or Processing Controller at the law firm, namely: Maître Aminatou KONÉ –
-            <a href="mailto:info@ask-avocats.lu">info@ask-avocats.lu</a>,
-            6-12 rue du Fort Wallis, L-2714 Luxembourg. You also have the right to lodge a complaint with the competent
-            Luxembourg supervisory authority if you believe that the processing of your personal data infringes
-            applicable laws or affects your rights.
-          </p>
-          <p>
-            By submitting and validating this form, you acknowledge that you have received the above information and
-            expressly consent to the processing of your personal data strictly within the scope necessary for handling
-            your request.
-          </p>
-
-          <h3>ES – Protección de datos personales</h3>
-          <p>
-            Los datos de carácter personal que usted proporciona a través del presente formulario son tratados por el
-            despacho con la finalidad exclusiva de gestionar y responder a su solicitud, incluido el seguimiento
-            necesario relacionado con la misma. Dichos datos se conservarán únicamente durante el tiempo estrictamente
-            necesario para cumplir con la finalidad para la cual fueron recopilados, así como, en su caso, para atender
-            a las obligaciones legales, reglamentarias o deontológicas aplicables a nuestra profesión.
-          </p>
-          <p>
-            El acceso a su información está limitado a los abogados del despacho y al personal administrativo debidamente
-            autorizado que interviene en el análisis y tramitación de su solicitud. A petición expresa, el despacho podrá
-            facilitarle información adicional sobre las categorías o la identidad de los destinatarios que tienen acceso
-            a los datos comunicados.
-          </p>
-          <p>
-            De conformidad con el Reglamento (UE) 2016/679 de 27 de abril de 2016 (RGPD) y la normativa vigente en
-            Luxemburgo en materia de protección de datos, usted dispone, en particular, de los siguientes derechos:
-          </p>
-          <ul>
-            <li>derecho de acceso a los datos que le conciernen,</li>
-            <li>derecho de rectificación o actualización de los mismos,</li>
-            <li>derecho de supresión (derecho al olvido), dentro de los límites previstos por la ley,</li>
-            <li>derecho a retirar su consentimiento en cualquier momento,</li>
-            <li>
-              derecho de oposición, por motivos legítimos, salvo cuando el tratamiento sea obligatorio por disposición
-              legal o responda a un interés imperioso vinculado a la finalidad perseguida,
-            </li>
-            <li>
-              derecho a la limitación del tratamiento o a la portabilidad de los datos, cuando se cumplan los requisitos
-              legales aplicables.
-            </li>
-          </ul>
-          <p>
-            Para ejercer sus derechos o realizar cualquier solicitud vinculada al tratamiento de sus datos personales,
-            puede dirigirse al responsable del tratamiento del despacho: Maître Aminatou KONÉ –
-            <a href="mailto:info@ask-avocats.lu">info@ask-avocats.lu</a>, 6-12 rue du Fort Wallis, L-2714 Luxembourg.
-            Asimismo, usted tiene derecho a presentar una reclamación ante la autoridad supervisora competente en
-            Luxemburgo si considera que el tratamiento de sus datos vulnera sus derechos.
-          </p>
-          <p>
-            Al continuar con el envío y validación de este formulario, usted declara haber sido debidamente informado
-            sobre el tratamiento de sus datos personales y otorga su consentimiento expreso, limitado a lo estrictamente
-            necesario para la gestión de su solicitud.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- POLITIQUE DE CONFIDENTIALITÉ -->
-    <section id="politique-confidentialite" class="section section--legal section--last">
-      <div class="container">
-        <h2 class="section__title">Politique de confidentialité</h2>
-        <div class="legal-content">
-          <p>
-            Ask Avocats traite les données personnelles conformément au Règlement Général sur la Protection des Données
-            (RGPD) et à la loi luxembourgeoise du 1er août 2018 relative à la protection des données. Nous collectons
-            uniquement les informations nécessaires, notamment celles transmises via les formulaires (nom, email,
-            organisation, message), ainsi que certaines données techniques de navigation (adresse IP, cookies,
-            statistiques) et les informations liées aux commentaires publiés (IP, navigateur, avatar éventuel). Aucun
-            enregistrement automatique n’est réalisé en dehors de ces cas.
-          </p>
-          <p>
-            Vos données sont utilisées pour répondre à vos demandes, assurer le suivi de la relation avocat–client,
-            respecter nos obligations légales luxembourgeoises (dont les obligations LBC/FT), améliorer le fonctionnement
-            du site, analyser son audience et garantir sa sécurité. Les traitements reposent sur l’exécution d’un
-            contrat, nos obligations légales, notre intérêt légitime ou votre consentement lorsque celui-ci est requis
-            (notamment pour les cookies non essentiels).
-          </p>
-          <p>
-            Notre site utilise des cookies fonctionnels et techniques ainsi que des outils d’analyse d’audience (par
-            exemple Google Analytics). Certains contenus externes intégrés (vidéos, cartes, plateformes) peuvent
-            également déposer leurs propres cookies. Vous pouvez gérer vos préférences via le bandeau de consentement ou
-            les réglages de votre navigateur. Si vous téléversez des images, nous vous recommandons de supprimer les
-            métadonnées de géolocalisation (EXIF).
-          </p>
-          <p>
-            Les données transmises via les formulaires sont conservées jusqu’à 2 ans, celles liées aux dossiers clients
-            jusqu’à 5 ans après la fin de la mission, et les commentaires publiés de manière indéfinie sauf demande de
-            suppression. Nous appliquons des mesures techniques et organisationnelles visant à garantir la sécurité de
-            vos données, même si aucune transmission en ligne ne peut être totalement sécurisée.
-          </p>
-          <p>
-            Conformément au RGPD et à la loi luxembourgeoise, vous disposez d’un droit d’accès, de rectification,
-            d’effacement, de limitation, d’opposition, de portabilité et de retrait du consentement. Certaines
-            restrictions peuvent s’appliquer lorsque des obligations légales imposent la conservation (notamment dans le
-            cadre de la lutte contre le blanchiment). Vous pouvez exercer vos droits à l’adresse :
-            <a href="mailto:info@ask-avocats.com">info@ask-avocats.com</a>. En cas de difficulté, vous pouvez introduire
-            une réclamation auprès de la CNPD – 15 Boulevard du Jazz, L-4370 Belvaux (Luxembourg).
-          </p>
-        </div>
-      </div>
-    </section>
   </main>
 
   <footer class="footer">
     <div class="container footer__inner">
       <p>© ASK Avocats – <span id="year"></span></p>
       <div class="footer__links">
-        <a href="#mentions-legales">Mentions légales</a>
-        <a href="#politique-confidentialite">Politique de confidentialité</a>
+        <a href="mentions-legales.html">Mentions légales</a>
+        <a href="politique-confidentialite.html">Politique de confidentialité</a>
       </div>
     </div>
   </footer>
